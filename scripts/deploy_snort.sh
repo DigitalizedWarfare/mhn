@@ -30,7 +30,7 @@ pip install virtualenv
 
 cd /tmp
 rm -rf libev*
-wget https://github.com/threatstream/hpfeeds/releases/download/libev-4.15/libev-4.15.tar.gz
+wget https://github.com/DigitalizedWarfare/hpfeeds/releases/download/libev-4.15/libev-4.15.tar.gz
 tar zxvf libev-4.15.tar.gz 
 cd libev-4.15
 ./configure && make && make install
@@ -38,14 +38,14 @@ ldconfig
 
 cd /tmp
 rm -rf hpfeeds
-git clone https://github.com/threatstream/hpfeeds.git
+git clone https://github.com/DigitalizedWarfare/hpfeeds.git
 cd hpfeeds/appsupport/libhpfeeds
 autoreconf --install
 ./configure && make && make install 
 
 cd /tmp
 rm -rf snort
-git clone -b hpfeeds-support https://github.com/threatstream/snort.git
+git clone -b hpfeeds-support https://github.com/DigitalizedWarfare/snort.git
 export CPPFLAGS=-I/include
 cd snort
 ./configure --prefix=/opt/snort && make && make install 
