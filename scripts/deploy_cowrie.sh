@@ -35,7 +35,7 @@ service ssh restart
 useradd -d /home/cowrie -s /bin/bash -m cowrie -g users
 
 cd /opt
-git clone https://github.com/micheloosterhof/cowrie.git cowrie
+git clone https://github.com/DigitalizedWarfare/cowrie.git cowrie
 cd cowrie
 virtualenv env
 source env/bin/activate
