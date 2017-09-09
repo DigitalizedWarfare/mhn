@@ -22,7 +22,7 @@ apt-get -y install git golang supervisor
 
 # Get the elastichoney source
 cd /opt
-git clone https://github.com/threatstream/elastichoney.git
+git clone https://github.com/DigitalizedWarfare/elastichoney.git
 cd elastichoney
 
 export GOPATH=/opt/elastichoney
