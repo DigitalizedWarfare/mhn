@@ -23,7 +23,7 @@ apt-get -y install git python-pip supervisor
 
 # Get the Amun source
 cd /opt
-git clone https://github.com/zeroq/amun.git
+git clone https://github.com/DigitalizedWarfare/amun.git
 cd amun
 # Currently only the development branch supports hpfeeds
 git checkout development
