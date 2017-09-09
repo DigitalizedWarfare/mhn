@@ -23,7 +23,7 @@ apt-get -y install git supervisor libpcap-dev libjansson-dev gcc
 
 # install p0f
 cd /opt
-git clone https://github.com/threatstream/p0f.git
+git clone https://github.com/DigitalizedWarfare/p0f.git
 cd p0f
 git checkout origin/hpfeeds
 ./build.sh
